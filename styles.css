@@ -1,0 +1,124 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+        background-color: #cfcbcb90;
+        font-family: 'Noto Serif', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+   
+nav{
+    display: flex;
+    width: 100%;
+    background-color:#000 ;
+    justify-content: flex-end;
+    position: fixed;
+    margin-top: 0%;
+    padding-top: 15px;
+   
+    padding-bottom: 15px;
+    gap: 30px;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 20px;
+        color:  #fff;
+         padding-right:15px;
+   
+    }
+    nav a:hover{
+        background-color: hsl(0, 0%, 76%);
+    }
+    
+    .product-container{
+        background-color: #fff;
+        width: 800px;
+        padding: 20px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     img{
+        
+        width: 100%;
+    }
+    .product-image img{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 350px;
+    }
+    .product-detail{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 400px;
+    }
+    .product-detail ul{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .product-detail h1 h3 p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .promo-code p{
+        width:270px;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        font-weight: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(250, 252, 333, );
+        border:solid 3px green;
+    }
+    .row{
+        display: flex;
+           }
+
+           .related-product{
+            background-color: pink;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            height:140px;
+            width:200px;
+                                  }
+           .row .related-product{
+            padding-bottom: 20px;
+            border: #000 solid 2px;
+            margin-left: 10px;
+            margin-right: 10px;
+            height:180px;
+            width:160px;
+            gap: 30px;
+           }
+           
+     .related-product p{
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            visibility: hidden;
+            height: 35px;
+            width:160px;
+            
+           }
+
+    footer{
+        background-color: #000;
+        color: #fff;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+            }
+    .related-product:hover p{
+    visibility: visible;
+
